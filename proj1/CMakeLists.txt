@@ -15,7 +15,6 @@ target_link_libraries(proj1_lib
     PUBLIC
         GSL::gsl
 )
-add_library(Proj1::proj1_lib ALIAS proj1_lib)
 
 include(GNUInstallDirs)
 install(TARGETS proj1_lib EXPORT proj1_lib_targets
