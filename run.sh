@@ -1,3 +1,5 @@
+#!/bin/bash
+
 (
     mkdir proj1/build
     cd proj1/build || exit
